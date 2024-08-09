@@ -43,10 +43,22 @@ span {
     flex-direction: row;
 
 }
+.link{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: end;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    justify-content: center;
+    display: flex;
+}
 
 .link i {
-    display: flex;
-    justify-content: flex-end;
+
+color: #1F1F1F;
 }
 
 .icn {
@@ -76,14 +88,13 @@ input {
     margin: 0px auto;
     width: 85%;
 padding-left: 20px;
-padding-right: 40px;
 border: 0px;
 }
 .search-container{
     padding: 15px 15px;
     border-radius: 35px;
     margin: 30px auto;
-    width: 45%;
+    width: 40%;
     background-color: white;
 }
 .search-container i {
@@ -95,6 +106,7 @@ border: 0px;
     width: 20px;
     height: 20px;
     margin: 0px 3px;
+    
 }
 
 .icons {
@@ -106,16 +118,18 @@ border: 0px;
 }
 
 .icn {
-    width: 50px;
+    width: 100px;
     height: 100px;
     display: flex;
     flex-direction: column;
-    margin: 30px 25px;
+    margin: 30px 5px;
     font-size: 30px;
     background-color: color;
     display: flex;
     justify-content: center;
+    text-align: center;
     border-radius: 0%;
+    align-items: center;
 
 }
 
@@ -158,3 +172,35 @@ li:last-child {
     margin: 0;
     padding: 0;
 }
+.label-btn {
+    font-size: 13px;
+    padding: 5px 5px;
+    margin: 2px 2px;
+    text-align: center;
+}
+input::placeholder {
+    text-align: left;
+  }
+
+.gmail-navbar{
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+    }
+
+.gmail-navbar a,.gmail-navbar i {
+        color: white;
+        padding: 14px 16px;
+    }
+
+    .footer-link a{
+
+        color: #FFFFFF;
+    }
+
+    .footer-link{
+        padding-bottom: 40px ;
+        padding-left: 40px;
+    }
+
